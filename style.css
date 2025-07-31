@@ -246,9 +246,9 @@ footer {
 }
 
 button {
-    background-color: #ffffff;
-    color: #000000;
-    border: none;
+    background-color: #cccccc;
+    color: #222222;
+    border: 1px solid #aaaaaa;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
@@ -259,7 +259,7 @@ button {
 }
 
 button:hover {
-    background-color: #e0e0e0;
+    background-color: #bbbbbb;
 }
 
 button:disabled {
