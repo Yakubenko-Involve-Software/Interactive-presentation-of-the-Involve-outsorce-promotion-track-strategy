@@ -221,21 +221,7 @@ footer {
     z-index: 10;
 }
 
-.progress-bar-container {
-    width: 80%;
-    margin: 0 auto;
-    height: 4px;
-    background-color: #444;
-    border-radius: 2px;
-}
 
-.progress-bar {
-    height: 100%;
-    width: 0%;
-    background-color: #ffffff;
-    border-radius: 2px;
-    transition: width 0.3s ease;
-}
 
 .footer-controls {
     display: flex;
@@ -246,20 +232,25 @@ footer {
 }
 
 button {
-    background-color: #cccccc;
-    color: #222222;
-    border: 1px solid #aaaaaa;
-    padding: 10px 20px;
-    font-size: 1em;
+    background-color: transparent;
+    color: #cccccc;
+    border: 2px solid #cccccc;
+    padding: 0;
+    font-size: 1.5em;
     cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    min-width: 120px;
-    font-weight: bold;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4px; /* Adjust vertical alignment */
 }
 
 button:hover {
-    background-color: #bbbbbb;
+    background-color: #cccccc;
+    color: #222222;
 }
 
 button:disabled {

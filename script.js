@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nextBtn = document.getElementById('nextBtn');
     const prevBtn = document.getElementById('prevBtn');
     const slideCounter = document.getElementById('slide-counter');
-    const progressBar = document.querySelector('.progress-bar');
+
 
     let currentSlide = 0;
     const totalSlides = slides.length;
@@ -20,9 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update slide counter
         slideCounter.textContent = `${index + 1} / ${totalSlides}`;
 
-        // Update progress bar
-        const progressPercentage = ((index + 1) / totalSlides) * 100;
-        progressBar.style.width = `${progressPercentage}%`;
+
 
         // Update button states
         prevBtn.disabled = index === 0;
